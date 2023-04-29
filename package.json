@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "my-app",
+=======
+  "name": "first-tool",
+>>>>>>> c747aef (Initialize project using Create React App)
   "version": "0.1.0",
   "private": true,
   "dependencies": {
