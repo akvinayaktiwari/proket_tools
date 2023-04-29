@@ -1,0 +1,121 @@
+.first{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.second{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.left-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+.img1{
+  box-shadow: 0px 2px 5px 1px #494747;
+}
+.left-dir{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.left-content h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  }
+ .right-container-new{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-left: 90px;
+ }
+  .left-content{
+    font-size: 16px;
+    line-height: 140%;
+  }
+.btn1{
+  margin-top: 25px;
+}
+.right-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-content img{
+   height: 200px;
+   width: 500px;
+}
+.newsec{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img2{
+  height: 200px;
+  width: 500px;
+  box-shadow: 0px 2px 5px 1px #494747;
+}
+.base{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.use{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+  margin-bottom: 3vw;
+}
+.use h1{
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 480px){
+  .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    width: max-content;
+  }
+  .left-content h1{
+    font-size: 80px;
+  }
+
+  .left-content p{
+    padding-top: 9px;
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .left-container{
+    margin-bottom: 15vw;
+    margin-top: 5vw;
+  }
+  .btn1{
+    width: 70%;
+    font-size: 30px;
+    border-radius: 10px;
+    border-width: 3px;
+  }
+  .right-content img{
+    width: 590px;
+    height: 350px;
+  }
+  .second{
+    display: flex;
+    flex-direction: column-reverse;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+}
