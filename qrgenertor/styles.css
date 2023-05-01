@@ -1,0 +1,220 @@
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  .second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  .left-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+  }
+  .left-dir{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .left-content h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    }
+   .right-container-new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-left: 90px;
+   }
+    .left-content{
+      font-size: 16px;
+      line-height: 140%;
+    }
+  .btn1{
+    margin-top: 25px;
+  }
+  .right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .img1{
+     height: 500px;
+     width: 500px;
+     
+  }
+
+/* qr code css */
+.user-input input{
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.user-input button{
+  border-width: 2px;
+}
+.user-input label{
+  margin-top: 3vw;
+  margin-bottom: 0.8vw;
+}
+.user-input input{
+  margin-bottom: 1.5vw;
+}
+.qr-code{
+  margin-top: 4vw;
+  display: flex;
+  justify-content: space-between;
+}
+.qr-code button{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: #EEAF35;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  width: 30%; 
+  height: 100%; 
+  padding: 6px;
+  margin-top: 5rem;
+  margin-right: 10rem;
+}
+.qr-code button a{
+  font-family: Figtree;
+  color:  #EEAF35;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22.4px;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.qr-code button a:hover{
+  color: black;
+}
+  .newsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3vw;
+  }
+  .img2{
+    height: 200px;
+    width: 500px;
+  }
+  .base{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .use{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+  }
+  .use img{
+    height: 200px;
+  }
+  .newsec h3{
+    font-size: 1.5vw;
+    font-weight: 700;
+  }
+  .tutorial h3{
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+  }
+  .faq-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+.faq-section h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.faq-section h4{
+    text-align: center;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: -12%;
+}
+
+.faq-item {
+    margin-left: 10px;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(242, 208, 75);
+}
+
+.faq-item p {
+    font-size: 18px;
+    line-height: 1.5;
+    }
+.vertical {
+    border-left: 6px solid rgb(242, 208, 75);
+    height: 280px;
+    left: 5%;
+    position: absolute;
+            
+    }
+  
+  @media only screen and (max-width: 480px){
+    .first{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 30px;
+      width: max-content;
+    }
+    .left-content h1{
+      font-size: 80px;
+    }
+  
+    .left-content p{
+      padding-top: 9px;
+      margin-top: 25px;
+      font-size: 25px;
+      line-height: 30px;
+    }
+    .left-container{
+      margin-bottom: 15vw;
+      margin-top: 5vw;
+    }
+    .btn1{
+      width: 70%;
+      font-size: 30px;
+      border-radius: 10px;
+      border-width: 3px;
+    }
+    .right-content img{
+      width: 590px;
+      height: 350px;
+    }
+    .second{
+      display: flex;
+      flex-direction: column-reverse;
+      width: max-content;
+      justify-content: center;
+      align-items: center;
+      margin-left: 30px;
+    }
+  }
+  
